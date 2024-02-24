@@ -6,7 +6,10 @@ package co.edu.uniquindio.poo;
  */
 public class App {
     public static void main(String[] args) {
-        private int num = 5; 
-        System.out.println("Hello World!");
+
+        Estudiante estudiante = new Estudiante("109453264", "Camila", 
+        "Alzate", "camila@uniquindio.edu.co", "315635674", 18);
+
+        System.out.println(estudiante.toString());
     }
 }

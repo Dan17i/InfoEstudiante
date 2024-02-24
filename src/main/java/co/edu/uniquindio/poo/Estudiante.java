@@ -18,7 +18,7 @@ public class Estudiante {
     private String correo;
     private String telefono;
     private int edad;
-
+                      
     // ------------------------------------------------------------------------------------------------
     // contructor de la clase que contiene todos los atributos de la clase
     public Estudiante(String numId, String nombre, String apellido, String correo, String telefono, int edad) {
@@ -41,8 +41,7 @@ public class Estudiante {
         this.edad = edad;
 
     }
-
-    // contructor vacio por buenas practicas
+  // contructor vacio por buenas practicas
     public Estudiante() {
 
     }
